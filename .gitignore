@@ -1,0 +1,5 @@
+# This repo intentionally holds no build artifacts in its tree — installers are
+# published as GitHub Release assets by CI, not committed here. Just keep OS cruft out.
+.DS_Store
+Thumbs.db
+*.log
