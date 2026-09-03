@@ -11,13 +11,17 @@ the website: **<https://optimoapps.com/download>**
 
 | Platform | File |
 |----------|------|
-| **macOS** (Apple Silicon / Intel) | `Optimo-<version>-arm64.dmg` · `Optimo-<version>-x64.dmg` |
+| **macOS** (Apple Silicon / Intel) | `Optimo-<version>-arm64.dmg` · `Optimo-<version>.dmg` |
 | **Windows** (x64) | `Optimo-Setup-<version>.exe` |
 | **Linux** | `Optimo-<version>.AppImage` · `optimo_<version>_amd64.deb` |
 
-> On first launch your OS may warn that the app is from an unidentified developer
-> (the builds aren't code-signed yet). The [install help](https://optimoapps.com/download#install)
-> has the one-step fix for each platform.
+> **macOS** builds are signed with a Developer ID and notarized by Apple — they
+> open with no warning. Drag Optimo to Applications and **eject the disk image**
+> before launching, or macOS runs a temporary copy and your settings won't stick.
+>
+> **Windows** isn't code-signed yet, so SmartScreen shows "Windows protected your
+> PC" — click **More info → Run anyway**. The
+> [install help](https://optimoapps.com/download#install) covers every platform.
 
 ## About this repository
 
